@@ -1,0 +1,85 @@
+body {
+    background-color:blueviolet;
+}
+hr {
+    border-style: none;
+    border-top-style:dotted;
+    border-color: plum;
+    border-width: 5px;
+    width: 5%;
+}
+h1 {
+    color: darkblue;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1:hover {
+    color: gold;
+}
+h3 {
+    color: #000000;
+    font-style: italic;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ol {
+    color: lightgray;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul {
+    color: white;
+    font-family: 'Times New Roman', Times, serif
+}
+tr {
+    color: lightgray;
+    font-family: 'Times New Roman', Times, serif
+}
+/*****************************CLASS SELECOTRS*****************************/
+/*
+.class(name of the tag given through attribute class inside html tag) {
+        color: red;
+        size: 100px
+        etc...
+    }
+*/
+/*****************************ID SELECOTRS*****************************/
+/*
+#id(id has to be unique and can only be used once inside a single tag 
+rather than class which can be used as multiple times to use as a group for using 
+multiple attributes for same tag ) {
+        color: red;
+        size: 100px
+        etc...
+    }
+*/
+.radius {
+    border-radius: 100%;
+}
+.radius:hover {
+    border-radius: 25%;
+}
+#contact {
+    border-radius: 100%;
+    background-color: cornflowerblue;
+}
+.animated-button {
+    font-size: 16px;
+    padding: 1em 3.3em;
+    transform: perspective(200px) rotateX(15deg);
+    color: white;
+    font-weight: 900;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(0deg, rgba(63,94,251,1) 0%, rgba(70,135,252,1) 100%);
+    box-shadow: rgba(63,94,251,0.2) 0px 40px 29px 0px;
+    will-change: transform;
+    transition: all 0.3s;
+    border-bottom: 2px solid rgba(70,135,252,1);
+   }
+   
+   .animated-button:hover {
+    transform: perspective(180px) rotateX(30deg) translateY(2px);
+   }
+   
+   .animated-button:active {
+    transform: perspective(170px) rotateX(36deg) translateY(5px);
+   }
